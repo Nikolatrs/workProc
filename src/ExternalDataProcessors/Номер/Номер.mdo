@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cdbeaf2b-f8dd-4839-b09c-c7876b89e4cd">
+  <producedTypes>
+    <objectType typeId="292120d7-09e2-463e-9fa0-c503c1c445bb" valueTypeId="3a1c69a1-2ffa-48d4-a5e3-c2ac84395678"/>
+  </producedTypes>
+  <name>Номер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Номер</value>
+  </synonym>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="45ea0231-1f41-495f-89f4-79082934e9d5"/>
+  <defaultForm>ExternalDataProcessor.Номер.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="db1d9f15-cb69-4ff6-9b88-aad513375f5e">
+    <name>Number</name>
+    <synonym>
+      <key>ru</key>
+      <value>Number</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="abb13d08-bf8a-4fb3-8421-d5d53c968dbf">
+    <name>Sort</name>
+    <synonym>
+      <key>ru</key>
+      <value>Sort</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="2a8135b6-3de1-42ae-909a-cc4425e305f2">
+    <name>TypeN</name>
+    <synonym>
+      <key>ru</key>
+      <value>Type N</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.RoomTypes</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b0e1e84d-0ced-4e16-9de6-6f2f610fc8e9">
+    <name>Date</name>
+    <synonym>
+      <key>ru</key>
+      <value>Date</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="77eb99ca-66c1-431e-b105-39115f60a116">
+    <name>RTCode</name>
+    <synonym>
+      <key>ru</key>
+      <value>RTCode</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="3585a310-4d23-4ebd-bf81-7c27a7f70891">
+    <name>RTSort</name>
+    <synonym>
+      <key>ru</key>
+      <value>RTSort</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="94ab0da7-6c2b-4ac5-8e7c-f880bce2b3f0">
+    <name>RTDescroption</name>
+    <synonym>
+      <key>ru</key>
+      <value>RTDescroption</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="550c4a4a-b1ba-45f6-95ec-c9b0728d93d4">
+    <name>RTNOMBITR</name>
+    <synonym>
+      <key>ru</key>
+      <value>RTNOMBITR</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="f7074867-cb74-4f1b-83bd-d96b98c36518">
+    <name>RTMNOPIR</name>
+    <synonym>
+      <key>ru</key>
+      <value>RTMNOPIR</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="00f674e9-ff9e-480a-84bb-9964c939a94b">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:ExternalDataProcessor>

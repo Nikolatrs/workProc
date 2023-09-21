@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3d9b4732-043a-4bce-93e3-e75f400b5b16">
+  <producedTypes>
+    <objectType typeId="c9694c77-c001-4096-a1c0-b2625aa75c62" valueTypeId="781bbb4f-b928-43ff-ad2f-19eca954d5d4"/>
+  </producedTypes>
+  <name>EnterNumType</name>
+  <synonym>
+    <key>ru</key>
+    <value>Enter num type</value>
+  </synonym>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="a1ba82ba-fa5c-466e-8720-a18f06af5c01"/>
+  <defaultForm>ExternalDataProcessor.EnterNumType.Form.AddNum</defaultForm>
+  <attributes uuid="21535455-71e1-4ece-953d-dff2f0a74bb6">
+    <name>PathToFile</name>
+    <synonym>
+      <key>ru</key>
+      <value>Path to file</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="6272a1df-7cd1-4a2c-9464-928375a29427">
+    <name>List</name>
+    <synonym>
+      <key>ru</key>
+      <value>List</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="71a3eb68-8037-41fe-9f9a-a368de151544">
+    <name>Data</name>
+    <synonym>
+      <key>ru</key>
+      <value>Data</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="75e83cc0-b27c-4c53-8eb9-a5c0240f46bf">
+    <name>Hotel</name>
+    <synonym>
+      <key>ru</key>
+      <value>Hotel</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="6c205c22-d051-497d-86f4-c8ab6169fce5">
+    <producedTypes>
+      <objectType typeId="69ab1369-3da5-406d-9a21-0bab65454e3c" valueTypeId="94d5f4f4-1356-43f8-8d0e-012c78ca9268"/>
+      <rowType typeId="fd9ec164-dabd-4ca7-bf10-1608305d9fe1" valueTypeId="d1f86132-cade-465e-a26e-ebc896b7b9e1"/>
+    </producedTypes>
+    <name>Type</name>
+    <synonym>
+      <key>ru</key>
+      <value>Type</value>
+    </synonym>
+    <attributes uuid="0ffddc67-8c49-490d-af1e-a08525d09c41">
+      <name>Code</name>
+      <synonym>
+        <key>ru</key>
+        <value>Code</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="0611743e-aa12-4c0f-9765-38878e2e7306">
+      <name>SortCode</name>
+      <synonym>
+        <key>ru</key>
+        <value>Sort code</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="90e66748-09f5-4f35-a309-40f1e7fea838">
+      <name>DescType</name>
+      <synonym>
+        <key>ru</key>
+        <value>Desc type</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="3f81276e-b0d9-4482-8112-22ad60b9160e">
+      <name>Person</name>
+      <synonym>
+        <key>ru</key>
+        <value>Person</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="705a1b4c-c12a-4405-a102-3cdf413e508c">
+      <name>Beds</name>
+      <synonym>
+        <key>ru</key>
+        <value>Beds</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="819c126f-a70c-4940-9767-e2ffcba16fa8">
+    <producedTypes>
+      <objectType typeId="e90d0406-74dc-41cd-ae3a-8d935288f782" valueTypeId="a31337f1-79be-40a2-8930-2c1cb1a1d67b"/>
+      <rowType typeId="2d5b2a6b-2f97-40d5-b978-d091a19344ec" valueTypeId="65b826f4-bff7-4a39-8c7d-63ade9a4d1a2"/>
+    </producedTypes>
+    <name>Number</name>
+    <synonym>
+      <key>ru</key>
+      <value>Number</value>
+    </synonym>
+    <attributes uuid="723c70ee-8d7f-48cc-84a7-b7242bfaa438">
+      <name>Number</name>
+      <synonym>
+        <key>ru</key>
+        <value>Number</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="178341e8-e623-49f3-a7c5-f129c16fecea">
+      <name>Sort</name>
+      <synonym>
+        <key>ru</key>
+        <value>Sort</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="3ed83463-ffba-49a2-bf52-522e6f62bb8b">
+      <name>Type</name>
+      <synonym>
+        <key>ru</key>
+        <value>Type</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="4761c5f1-d4bd-4218-9f36-1680013610cb">
+    <name>AddNum</name>
+    <synonym>
+      <key>ru</key>
+      <value>Add num</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:ExternalDataProcessor>
